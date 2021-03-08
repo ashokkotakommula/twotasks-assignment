@@ -1,0 +1,29 @@
+h3 {
+  margin: 20px;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #eee;
+  height: 100vh;
+  width: 100%;
+}
+.input-container {
+  height: 50px;
+}
+.task-two-btn {
+  padding: 10px;
+  border-radius: 5px;
+  background: crimson;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.task-two-btn:hover {
+  background: #fff;
+  border: 1px solid crimson;
+  color: crimson;
+}
+

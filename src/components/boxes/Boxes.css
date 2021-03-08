@@ -1,0 +1,91 @@
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 450px;
+    position: relative;
+    border: 0.5px solid #ddd;
+    background: #fff;
+    border-radius: 10px;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightblue;
+    margin: 10px;
+    border: 0.5px solid #111;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 0;
+}
+.box-five {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid #111;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 0;
+}
+.box-up {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: cadetblue;
+    margin: 10px;
+    border: 0.5px solid #111;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.3s all ease-in-out;
+}
+
+@media screen and (max-width: 500px) {
+    .box-container {
+        height: 350px;
+        width: 350px;
+    }
+    .box {
+        width: 150px;
+        height: 150px;
+    }
+    .box-five {
+        width: 150px;
+        height: 150px;
+    }
+    .box-up {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .box-container {
+        height: 250px;
+        width: 250px;
+    }
+    .box {
+        width: 100px;
+        height: 100px;
+    }
+    .box-five {
+        width: 100px;
+        height: 100px;
+    }
+    .box-up {
+        width: 100px;
+        height: 100px;
+    }
+}

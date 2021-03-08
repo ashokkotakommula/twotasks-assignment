@@ -1,0 +1,91 @@
+form {
+  background: #fff;
+  width: 700px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 0.5px solid #ddd;
+  
+}
+form p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  height: 40px;
+  width: 100px;
+  margin: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  outline-color: teal;
+  padding: 4px;
+  text-align: center;
+    
+}
+form button {
+  height: 40px;
+  width: 70px;
+  background: #ddd;
+  outline-color: teal;
+  border: none;
+  color: teal;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #fff;
+  border: 2px solid teal;
+  color: teal;
+}
+.input-container {
+  height: 50px;
+}
+
+
+@media screen and (max-width: 690px) {
+  form {
+    width: 400px;
+    height: 80px;
+    padding: 10px;
+  }
+  form input {
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+  }
+  form button {
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+  }
+  form p {
+    font-size: 10px;
+  }
+    
+  }
+  
+@media screen and (max-width: 400px) {
+  form {
+    width: 350px;
+    height: 80px;
+    padding: 15px;
+  }
+  form input {
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+  }
+  form button {
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+  }
+    form p {
+      font-size: 8px;
+    }
+}
